@@ -1,0 +1,20 @@
+//rem based value
+html {
+  font-size: 62.5%;       //1rem=16px; so 16*0.625 = 10 base as 10 easy for rem calculation.
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  background-color: $dark-blue;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+.App {
+  text-align: center;
+  width: 87%;
+  margin: auto;
+}

@@ -1,0 +1,17 @@
+.chevron_main_div {
+  width: 4%;
+  display: flex;
+  height: 62px;
+  margin: auto;
+  margin-top: 16px;
+}
+.chevron_button {
+	width: 100%;
+  font-size: 23px;
+  background: #333745;
+  color: white;
+  border: none;
+}
+.chevron_button:disabled {
+	color: grey;
+}
